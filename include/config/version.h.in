@@ -1,0 +1,5 @@
+#include <string_view>
+
+static constexpr std::string_view GS_GIT_SHA{"@GIT_SHA@"};
+static constexpr std::string_view GS_GIT_BRANCH{"@GIT_BRANCH@"};
+static constexpr std::string_view GS_PROJECT_VERSION{"@Schemly_VERSION@"};
